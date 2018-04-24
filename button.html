@@ -2,11 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scaleable=none">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WEUI-Button源码分析</title>
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./botton.css">
 </head>
-<body>
-    
+<body ontouchstsrt>
+    <div class="container" id="container">
+        <div class="page home">
+            <div class="page__hd">
+                <hi class="page__title">
+                    Button
+                </hi>
+                <p class="page__desc">按钮</p>
+            </div>
+            <div class="page__bd">
+                <!-- css 框架只负责提供类名，
+                只要使用相同的类名，样式是一致的。 -->
+                <a href="#" class="weui-btn weui-btn_primary">页面主操作 Normal</a>
+            </div>
+        </div>
+    </div>   
 </body>
 </html>
