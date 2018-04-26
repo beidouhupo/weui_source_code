@@ -1,0 +1,17 @@
+/*
+ * auther yyj
+ * date 2018-4-25
+ */
+
+ .weui-badge {
+     display: inline-block;
+     padding: 0.15em 0.4em;
+     min-width: 8px;
+     border-radius: 18px;
+     background: #F43530;
+     color: #ffffff;
+     line-height: 1.2;
+     text-align: center;
+     font-size: 12px;
+     vertical-align: middle;
+ }
